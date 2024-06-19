@@ -86,6 +86,15 @@ public class NotasDAO extends SQLiteOpenHelper {
         List<NotasVO> listaNotas = new ArrayList<>();
         String SELECT_QUERY = "SELECT * FROM " + TB_NOTAS;
         SQLiteDatabase db = this.getReadableDatabase();
+         String CREATE_MISSING_TB_NOTAS = "CREATE TABLE IF NOT EXISTS " + TB_NOTAS + "("
+                + KEY_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
+                + TITULO + " TEXT,"
+                + DESCRICAO + " TEXT,"
+                + ID_CRIADOR + " INTEGER,"
+                + DATA_CRIACAO + " INTEGER," // Armazenar data como long (timestamp)
+                + DISCIPLINA + " TEXT,"
+                + VALOR_NOTA + " REAL" + ")";
+        db.execSQL(CREATE_MISSING_TB_NOTAS);
         Cursor cursor = db.rawQuery(SELECT_QUERY, null);
         if (cursor.moveToFirst()) {
             do {
