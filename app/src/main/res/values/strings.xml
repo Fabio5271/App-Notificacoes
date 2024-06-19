@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PI</string>
+    <string name="lixeira_descricao">Deletar Notificação</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="Próximo">Próximo</string>
+    <string name="Voltar">Voltar</string>
+    <string name="beff">BEFF</string>
+    <string name="faca_seu_registro">Faça seu registro</string>
+    <string name="nome">Nome</string>
+    <string name="matricula">Matrícula</string>
+    <string name="e_mail">E-mail</string>
+    <string name="crie_a_senha">Crie a senha</string>
+    <string name="confirme_a_senha">Confirme a senha</string>
+    <string name="ja_possui_cadastro">Já possui cadastro?</string>
+    <string name="faca_login">Faça login</string>
+    <string name="eu_aceito_os_termos_de_uso">Eu aceito os termos de uso</string>
+    <string name="titulo">Título</string>
+    <string name="descricao">Descrição</string>
+    <string name="Tipo">Tipo</string>
+    <string name="beff_loading">BEFF</string>
+    <string name="beff_login">BEFF</string>
+    <string name="faca_seu_login">Faça seu Login</string>
+    <string name="matricula_login">Matrícula</string>
+    <string name="senha_login">Senha</string>
+    <string name="quero_permanecer_conectado_a">Quero permanecer conectado(a)</string>
+    <string name="conectar">Conectar</string>
+    <string name="notificaces_main">Notificações</string>
+    <string name="notificaces_main2">Notificações</string>
+    <string name="criar_notif">+ Criar</string>
+    <string name="criaco_de_notificaces">Criação de Notificações</string>
+    <string name="publica">Pública</string>
+    <string name="privada">Privada</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="disciplina">Disciplina</string>
+    <string name="nome_da_disciplina">Nome da Disciplina</string>
+    <string name="titulo_da_notificaco">Título da notificação</string>
+    <string name="disciplinas_matriculadas">Disciplinas matriculadas</string>
+    <string name="app_name2">MeuApp</string>
+    <string-array name="visibility_options">
+        <item>Público</item>
+        <item>Privado</item>
+    </string-array>
+</resources>

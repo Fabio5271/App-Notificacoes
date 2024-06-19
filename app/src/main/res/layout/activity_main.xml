@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/mainRectangle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        android:layout_marginTop="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notificaces_main"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@null"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="230dp"
+        />
+
+    <ImageButton
+        android:id="@+id/logoff1"
+        android:src="@drawable/logoff"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:id="@+id/TextViewData"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="6dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/exibirnotificacao"
+        android:background="@drawable/border"
+        android:layout_height="150dp"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="0dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/exibirnotificacao2"
+        android:background="@drawable/border"
+        android:layout_height="150dp"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="0dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/exibirnotificacao3"
+        android:background="@drawable/border"
+        android:layout_height="150dp"
+        android:layout_width="320dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="0dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>

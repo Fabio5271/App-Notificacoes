@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/criaco_de_notificaces"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@null"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="6dp"
+        />
+
+    <Button
+        android:id="@+id/botaovoltarhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/Voltar"
+        android:textColor="@color/black"
+        android:background="#00FF0000"
+        />
+
+    <Button
+        android:id="@+id/botaocriarnotificacao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/Próximo"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
+        android:background="#00FF0000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTituloNotificacao"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:hint="@string/titulo_da_notificaco"
+        android:background="@drawable/border"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descricao"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextDescricaoNotificacao"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="16dp"
+        android:paddingEnd="4dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tipo"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_visibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="577dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="16dp"
+        android:spinnerMode="dropdown"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disciplina"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="620dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="35dp"
+        android:hint="@string/nome_da_disciplina"
+        android:background="@drawable/border"
+        android:layout_marginTop="680dp"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        />
+
+    <Button
+        android:id="@+id/confirmarcriacao"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="@string/confirmar"
+        android:textSize="16sp"
+        android:layout_marginTop="750dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/green"
+        />
+
+</RelativeLayout>

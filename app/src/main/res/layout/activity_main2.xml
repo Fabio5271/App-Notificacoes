@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border3"
+        android:layout_marginTop="0dp"
+        />
+
+    <ImageButton
+        android:id="@+id/logoff2"
+        android:src="@drawable/logoff"
+        android:backgroundTint="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notificaces_main2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="@null"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="6dp"
+        />
+
+    <TextView
+        android:id="@+id/TextViewData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="110dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/exibirnotificacao1"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/border"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="0dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/exibirnotificacao2"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/border"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="0dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/exibirnotificacao3"
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/border"
+        android:paddingStart="16dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="0dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/botaocriarnotificacao"
+        android:layout_width="97dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/criar_notif"
+        android:backgroundTint="@color/green"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageButton
+        android:id="@+id/lixeira_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lixeira"
+        android:contentDescription="@string/lixeira_descricao"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="165dp"
+        android:layout_marginStart="365dp"
+        />
+
+    <ImageButton
+        android:id="@+id/lixeira_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lixeira"
+        android:contentDescription="@string/lixeira_descricao"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="365dp"
+        />
+
+    <ImageButton
+        android:id="@+id/lixeira_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lixeira"
+        android:contentDescription="@string/lixeira_descricao"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_marginTop="555dp"
+        android:layout_marginStart="365dp"
+        />
+
+</RelativeLayout>

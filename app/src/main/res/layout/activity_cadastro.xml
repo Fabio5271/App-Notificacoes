@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/border3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beff"
+        android:textSize="26sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@null"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faca_seu_registro"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@null"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextMatricula"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:hint="@string/matricula"
+        android:inputType="text"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextCriarSenha"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:hint="@string/crie_a_senha"
+        android:inputType="textPassword"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextConfirmarSenha"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:hint="@string/confirme_a_senha"
+        android:inputType="textPassword"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/editTextDisciplinasMatriculadas"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:hint="@string/disciplinas_matriculadas"
+        android:inputType="text"
+        android:background="@drawable/border"
+        android:paddingStart="18dp"
+        android:paddingEnd="0dp"
+        android:layout_marginTop="480dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <View
+        android:id="@+id/rectangle"
+        android:background="@drawable/border2"
+        android:layout_height="100dp"
+        android:layout_width="210dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ja_possui_cadastro"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@null"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/botaocadastrar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:text="@string/cadastrar"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/botaologin"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="@string/faca_login"
+        android:textSize="18sp"
+        android:backgroundTint="#009266"
+        />
+
+</RelativeLayout>
